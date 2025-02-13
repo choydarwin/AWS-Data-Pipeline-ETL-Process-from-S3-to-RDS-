@@ -5,7 +5,7 @@ This project demonstrates an **ETL (Extract, Transform, Load) pipeline** using *
 
 ## 🔹 Technologies Used  
 - **AWS S3** – Cloud storage for raw data  
-- **AWS RDS (MySQL/PostgreSQL)** – Relational database for structured data storage  
+- **AWS RDS (MySQL)** – Relational database for structured data storage  
 - **Python & SQL** – Data transformation and loading  
 - **Pandas** – Data manipulation and preprocessing  
 - **Boto3** – AWS SDK for interacting with S3 and RDS  
@@ -15,3 +15,11 @@ This project demonstrates an **ETL (Extract, Transform, Load) pipeline** using *
 2. **Transform** – Clean and format data using Python and Pandas  
 3. **Load** – Insert processed data into AWS RDS  
 
+## 🎯 Key Features
+- ✔️ Data retrieval from AWS S3
+- ✔️ Processing and cleaning data with Python
+- ✔️ Storing structured data in AWS RDS
+- ✔️ Designed for scalability and future improvements
+
+## 📌 Future Enhancements
+- 🔹 Advanced SQL Queries for Analysis
