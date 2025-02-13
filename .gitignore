@@ -4,6 +4,7 @@ scripts/.ipynb_checkpoints/
 # Ignore Python cache files inside scripts/
 scripts/__pycache__/
 
+notebooks/.ipynb_checkpoints/
 
 # Ignore environment variable files
 .env
