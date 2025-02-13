@@ -1,0 +1,22 @@
+item_id,description,quantity_on_hand,cost,purchase_date,vendor,price,date_sold,cust,quantity_sold,item_type,location,unit
+1000,Bennet Farm free-range eggs,29,2.35,2022-02-01,"Bennet Farms, Rt. 17 Evansville, IL 55446",3.99,2022-01-01,nan,4.0,D12,dozen,bunch
+1000,Bennet Farm free-range eggs,27,1.52,2022-01-01,Unknown,5.49,2022-02-02,198765.0,2.0,Dairy,D12,dozen
+2000,Ruby's Kale,3,1.52,2022-01-01,Unknown,3.99,2022-02-02,nan,2.0,Produce,p12,bunch
+1100,Freshness White beans,13,1.52,2022-01-01,Unknown,1.49,2022-02-02,202900.0,2.0,Canned,a2,12 ounce can
+1100,Freshness White beans,53,0.69,2022-02-02,"Freshness, Inc., 202 E. Maple St., St. Joseph, MO 45678",3.99,2022-01-01,nan,4.0,a2,12 oz can,bunch
+1000,Bennet Farm free-range eggs,25,1.52,2022-01-01,Unknown,5.99,2022-02-04,196777.0,2.0,Dairy,D12,dozen
+1100,Freshness White beans,45,1.52,2022-01-01,Unknown,1.49,2022-02-07,198765.0,8.0,Canned,a2,12-oz can
+1222,Freshness Green beans,59,0.59,2022-02-10,"Freshness, Inc., 202 E. Maple St., St. Joseph, MO 45678",3.99,2022-01-01,nan,4.0,a3,12 ounce can,bunch
+1223,Freshness Green beans,12,1.75,2022-02-10,"Freshness, Inc., 202 E. Maple St., St. Joseph, MO 45678",3.99,2022-01-01,nan,4.0,a7,36 oz can,bunch
+1224,Freshness Wax beans,31,0.65,2022-02-10,"Freshness, Inc., 202 E. Maple St., St. Joseph, MO 45678",3.99,2022-01-01,nan,4.0,a3,12 ounce can,bunch
+1000,Bennet Farm free-range eggs,21,1.52,2022-01-01,Unknown,5.49,2022-02-11,277177.0,4.0,Dairy,d12,dozen
+1100,Freshness White beans,41,1.52,2022-01-01,Unknown,1.49,2022-02-11,nan,4.0,Canned,a2,12 ounce can
+1222,Freshness Green beans,47,1.52,2022-01-01,Unknown,1.29,2022-02-12,111000.0,12.0,Canned,a3,12-oz can
+1224,Freshness Wax beans,23,1.52,2022-01-01,Unknown,1.55,2022-02-12,nan,8.0,Canned,a3,12-oz can
+2000,Ruby's Kale,28,1.29,2022-02-12,"Ruby Redd Produce, LLC, 1212 Milam St., Kenosha, AL, 34567",3.99,2022-01-01,nan,4.0,p12,bunch,bunch
+2001,Ruby's Organic Kale,20,2.19,2022-02-12,"Ruby Redd Produce, LLC, 1212 Milam St., Kenosha, AL, 34567",3.99,2022-01-01,nan,4.0,po2,bunch,bunch
+1223,Freshness Green beans,7,1.52,2022-01-01,Unknown,3.49,2022-02-13,198765.0,5.0,Canned,a7,36 oz can
+2001,Ruby's Organic Kale,19,1.52,2022-01-01,Unknown,6.99,2022-02-13,100988.0,1.0,Produce,po2,bunch
+2001,Ruby's Organic Kale,7,1.52,2022-01-01,Unknown,6.99,2022-02-14,202900.0,12.0,Produce,po2,bunch
+1223,Freshness Green beans,17,1.8,2022-02-15,"Freshness, Inc., 202 E. Maple St., St. Joseph, MO 45678",3.99,2022-01-01,nan,4.0,a7,36 oz can,bunch
+2000,Ruby's Kale,26,1.52,2022-01-01,Unknown,3.99,2022-02-15,111000.0,2.0,Produce,p12,bunch
