@@ -14,7 +14,7 @@ Here’s what you’ll find in this folder:
 This folder contains **documentation** related to the database schema:
 - **`eer_diagram.png`**: A visual representation of the database schema (Entity-Relationship Diagram).
 - 
-![Alt text for the image](sql/docs/your-image.png)
+![Alt text for the image](docs/eer_diagram.png)
 
 ---
 
