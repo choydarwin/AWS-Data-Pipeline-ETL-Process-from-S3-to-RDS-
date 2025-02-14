@@ -23,7 +23,7 @@ This folder contains **SQL scripts** for setting up and querying the database:
 - **`create_tables.sql`**: Creates the database and tables.
 - **`queries.sql`**: Contains example queries for analyzing the data.
 #### Total sales by item
-![Total Sales by Item](docs/total_sales_by_item.PNG)
+![Total Sales by Item](docs/total_sales__by_item.PNG)
 
 #### Total quantity of items sold and total revenue per item type
 ![Total Quantity and Revenue of Items Sold](docs/total_quantity_and_revenue_of_items_sold.PNG)
