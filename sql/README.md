@@ -22,11 +22,14 @@ This folder contains **documentation** related to the database schema:
 This folder contains **SQL scripts** for setting up and querying the database:
 - **`create_tables.sql`**: Creates the database and tables.
 - **`queries.sql`**: Contains example queries for analyzing the data.
-  Total sales by item
-- ![Alt text for the image](docs/total_sales__by_item.png)
-  Total quantity of items sold and total revenue per item type
-- ![Alt text for the image](docs/total_quantity_and_revenue_of_items_sold.png)
-  Get the total quantity of items sold within a specific date range
-- ![Alt text for the image](docs/get_the_total_quantity_of_items_sold_in_date range.png)
+#### Total sales by item
+![Total Sales by Item](docs/total_sales_by_item.png)
+
+#### Total quantity of items sold and total revenue per item type
+![Total Quantity and Revenue of Items Sold](docs/total_quantity_and_revenue_of_items_sold.png)
+
+#### Get the total quantity of items sold within a specific date range
+![Get the Total Quantity of Items Sold in Date Range](docs/get_the_total_quantity_of_items_sold_in_date%20range.png)
+
   
 ---
