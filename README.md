@@ -1,4 +1,4 @@
-# **WS Data Pipeline: ETL Process from S3 to RDS**
+# **AWS Data Pipeline: ETL Process from S3 to RDS**
 
 ## 🚀 Overview  
 This project demonstrates an ETL (Extract, Transform, Load) pipeline using AWS S3 and RDS. It focuses on extracting raw data from S3, transforming it using Python, and loading it into a relational database (RDS) for further analysis. The project is designed to showcase my skills in cloud-based data processing and SQL.  
