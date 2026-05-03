@@ -1,47 +1,78 @@
-# **AWS Data Pipeline: ETL Process from S3 to RDS**
+# AWS Data Pipeline: ETL Process from S3 to RDS
 
 ## 🚀 Overview  
-This project demonstrates an ETL (Extract, Transform, Load) pipeline using AWS S3 and RDS. It focuses on extracting raw data from S3, transforming it using Python, and loading it into a relational database (RDS) for further analysis. The project is designed to showcase my skills in cloud-based data processing and SQL.  
+This project implements an end-to-end ETL data pipeline using AWS services, extracting raw data from S3, transforming it with Python, and loading it into a relational database (RDS) for structured storage and analysis.  
+
+The project focuses on building a modular data processing workflow in a cloud environment, demonstrating integration between storage, transformation, and database layers.
 
 **Note:** The dataset used in this project is sourced from a Coursera project.  
 
+---
+
+## 🧩 Architecture  
+
+S3 (Raw Data) → Python ETL (Processing) → RDS (Structured Data)
+
+The pipeline is designed with separate stages for extraction, transformation, and loading, allowing clear data flow and easier maintenance.
+
+---
+
 ## 🔹 Technologies Used  
-- **AWS S3** – Cloud storage for raw data  
-- **AWS RDS (MySQL)** – Relational database for structured data storage  
-- **Python** – Data transformation and preprocessing  
-- **Pandas** – Data manipulation and cleaning  
-- **Boto3** – AWS SDK for interacting with S3 and RDS  
-- **SQL** – Database management and querying  
-- **MySQL Workbench** – Used for designing, managing, and querying the database schema  
-- **venv** – Virtual environment for dependency management (excluded via `.gitignore`)  
+- AWS S3 – Storage for raw input data  
+- AWS RDS (MySQL) – Relational database for structured data storage  
+- Python – ETL workflow implementation  
+- Pandas – Data transformation and preprocessing  
+- Boto3 – Interaction with AWS services (S3, RDS)  
+- SQL – Data loading, querying, and schema definition  
+- MySQL Workbench – Database design and management  
+- venv – Dependency management (excluded via `.gitignore`)  
+
+---
 
 ## 🔄 ETL Workflow  
-- **Extract** – Retrieve raw data from AWS S3.  
-- **Transform** – Clean, preprocess, and structure data using Python and Pandas.  
-  - Missing numeric values were filled with the median of the respective column.  
-  - Missing categorical values were filled with the most common data (mode) of the respective column.  
-- **Load** – Insert processed data into AWS RDS using SQL.  
 
-## 📌 SQL for Structured Data Management  
-SQL is a critical component of this project, enabling structured data management and analysis:  
-- **Schema Definition** – SQL scripts create the database schema, ensuring data is organized and accessible.  
-- **Data Loading** – SQL `INSERT` statements load the processed data into AWS RDS.  
-- **Querying Data** – SQL queries analyze the data, revealing insights and trends.  
-- **Database Management** – MySQL Workbench was used to design and manage the relational database schema.  
+- **Extract**  
+  Retrieve raw data from AWS S3 using Boto3.  
+
+- **Transform**  
+  Clean, preprocess, and structure data using Python and Pandas:  
+  - Missing numeric values filled using median  
+  - Missing categorical values filled using mode  
+  - Data types standardized for consistency  
+
+- **Load**  
+  Insert processed data into AWS RDS using SQL, with structured tables designed for analysis.  
+
+The workflow is organized into modular steps to ensure clarity, maintainability, and reusability.
+
+---
+
+## 📌 Data Modeling & SQL  
+
+SQL is used to define and manage structured data within the pipeline:  
+- **Schema Definition** – Creation of relational tables to store processed data  
+- **Data Loading** – Insertion of transformed data into RDS  
+- **Querying** – Execution of analytical queries to validate and explore data  
+- **Database Management** – Schema design and management using MySQL Workbench  
+
+---
 
 ## 🎯 Key Features  
-✔️ **Data Retrieval** – Fetch raw data from AWS S3 using Boto3.  
-✔️ **Data Transformation** – Clean and preprocess data using Python and Pandas, including handling missing values.  
-✔️ **Data Loading** – Use SQL to create tables and insert processed data into AWS RDS.  
-✔️ **Scalability** – Designed for scalability and future improvements.  
-✔️ **Virtual Environment Management** – Used `venv` for dependency isolation, with virtual environment folders excluded from version control (`.gitignore`).  
-✔️ **Database Visualization & Management** – Utilized MySQL Workbench for database schema visualization and management.  
+✔️ Integration of AWS services (S3 and RDS) within a data pipeline  
+✔️ Modular ETL workflow implemented in Python  
+✔️ Structured data preparation for downstream analysis  
+✔️ Use of SQL for schema design and data management  
+✔️ Environment isolation using virtual environments (`venv`)  
+
+---
 
 ## 📌 Future Enhancements  
-🔹 **Advanced SQL Queries** – Implement complex SQL queries for deeper analysis.  
-🔹 **Automated Reporting** – Generate automated reports and dashboards using SQL.  
-🔹 **Optimization** – Optimize SQL queries and database indexing for better performance.  
+🔹 Automate pipeline execution using scheduling tools  
+🔹 Improve query performance through indexing and optimization  
+🔹 Extend pipeline to handle larger datasets and additional data sources  
+🔹 Add monitoring and logging for pipeline execution  
 
+---
 
-
-
+## 👤 Author  
+Darwin Choy
